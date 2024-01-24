@@ -14,8 +14,7 @@ const app = express();
 const port = 8000;
 
 // This is your Stripe CLI webhook secret for testing your endpoint locally.
-const endpointSecret =
-  "whsec_7ba92a3b34add8ec1def29757a58de44a9ba031a899227892d232acc8a6d8f1f";
+const endpointSecret = "whsec_bcG3IclR90miyP0lUAy5zhh5x5FLRTKU";
 
 // Middlewares here
 app.use(cors());
